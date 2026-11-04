@@ -1,0 +1,23 @@
+@import "https://unpkg.com/aos@2.3.1/dist/aos.css";
+@import "tailwindcss";
+
+
+@theme {
+--color-background: var(--background);
+--color-hedin: var(--hedin);
+--color-card: var(--card);
+--color-paragraph: var(--paragraph);
+
+}
+
+:root {
+    --background: #ffffffe8;
+    --hedin: #318ba7;
+    --card: #dce5e7;
+    --paragraph: #031f27;
+
+}
+
+body{
+    background-color: var(--background);
+}
